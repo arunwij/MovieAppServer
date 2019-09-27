@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const { compareSync, hashSync } = require('bcrypt');
+const { compareSync, hashSync } = require('bcryptjs');
 
 const MovieSchema = new Schema({
   imdbId: {
