@@ -2,31 +2,31 @@ const { Schema, model } = require('mongoose');
 const { compareSync, hashSync } = require('bcryptjs');
 
 const MovieSchema = new Schema({
-  imdbId: {
+  imdbID: {
     type: String,
     default: null
   },
-  title: {
+  Title: {
     type: String,
     default: null
   },
-  year: {
+  Year: {
     type: String,
     default: null
   },
-  genre: {
+  Genre: {
     type: String,
     default: null
   },
-  plot: {
+  Plot: {
     type: String,
     default: null
   },
-  country: {
+  Country: {
     type: String,
     default: null
   },
-  runtime: {
+  Runtime: {
     type: String,
     default: null
   },

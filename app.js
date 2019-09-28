@@ -6,7 +6,7 @@ const logger = require('morgan');
 /**
  * routes
  */
-const { userRoutes, authRoutes } = require('./routes');
+const { userRoutes, authRoutes, movieRoutes } = require('./routes');
 const apiRouter = express.Router();
 const app = express();
 
@@ -23,5 +23,6 @@ app.use('/api', apiRouter);
 
 apiRouter.use('/users', userRoutes);
 apiRouter.use('/auth', authRoutes);
+apiRouter.use('/movie', movieRoutes)
 
 module.exports = app;

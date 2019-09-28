@@ -74,8 +74,10 @@
 
 const userRoutes = require('./userRoutes');
 const authRoutes = require('./authRoutes');
+const movieRoutes = require('./movieRoutes');
 
 module.exports = {
   userRoutes,
-  authRoutes
+  authRoutes,
+  movieRoutes
 };
