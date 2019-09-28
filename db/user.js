@@ -36,6 +36,9 @@ const MovieSchema = new Schema({
   }
 });
 
+
+
+
 const UserSchema = new Schema({
   firstName: {
     type: String,

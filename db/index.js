@@ -11,6 +11,7 @@ const connectDb = async (connectionURL) => {
 };
 
 
+
 module.exports = {
   connectDb,
   User
